@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/itemOrdered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btnDecItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:minWidth="0dip"
+        android:minHeight="0dip"
+        android:padding="0dp"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/itemCnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btnIncItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:minWidth="0dip"
+        android:minHeight="0dip"
+        android:padding="0dp"
+        android:text="+" />
+
+    <TextView
+        android:id="@+id/priceOrdered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btnCancelItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:minWidth="0dip"
+        android:minHeight="0dip"
+        android:padding="0dp"
+        android:text="x" />
+</TableRow>
